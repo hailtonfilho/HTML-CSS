@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+       /* SELETORES PERSONALIZADOS
+          #   = id
+          .   = class
+          :   = pseudo-class
+          ::  = pseudo-element
+          >   = clildren
+       */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            background-color: brown;
+            color: white;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: black;
+        }
+
+        a::before{
+           content: '⚞';
+        }
+
+        a::after{
+           content: '⚟';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.google.com.br/maps/place/Itatiba,+SP/@-22.9972673,-46.8292621,13z/data=!3m1!4b1!4m6!3m5!1s0x94cf2a851d59a719:0x1993f2010972ec6d!8m2!3d-23.0116344!4d-46.8375899!16s%2Fg%2F1ymtrvtfy?entry=ttu">Itatiba-sp</a></a></li>
+        <li><a href="https://www.youtube.com/channel/UCFpAelK63D4Ej6KKdl14ERg">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site do CursoemVideos</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format(opentype), url('idroid.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #36BFB1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#pprincipal{
+    color: rgb(170, 170, 170);
+}
+
+h1#principal{
+    color: white;
+    margin: 30px;
+}
+
+header#principal{
+    text-align: center;
+    background-image: linear-gradient(180deg, #038C73, #02735E, #014034, #0D0D0D);
+    padding: 16px;
+    margin: -8px;
+}
+
+nav#tamanho{
+    display: block;
+    text-align: justify;
+    padding: 0px 0px 10px 0px;
+    height: 30px;
+    
+}
+
+a#home{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+a#home:hover{
+    background-color: white;
+    color: #038C73;
+}
+a#noticia{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+a#noticia:hover{
+    background-color: white;
+    color: #038C73;
+}
+a#curiosidade{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+a#curiosidade:hover{
+    background-color: white;
+    color: #038C73;
+}
+a#faleconosco{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+a#faleconosco:hover{
+    background-color: white;
+    color: #038C73;
+}
+
+main{
+    text-align: center;
+    font-family: 'idroid';
+    background-color: white;
+    margin: 15px 200px 23px 163px;
+    padding: 31px;
+    border-radius: 20px;
+}
+
+h1#main{
+    font-family: 'idroid';
+    text-decoration: none;
+    color: #014034;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+article > h1{
+    background-image: linear-gradient(90deg, #038C73, #02735E, #01403427, #0d0d0d00);
+    text-align: justify;
+    color: #014034;
+    padding: 1px 21px 10px 8px;
+    margin: 10px;
+    height: 19px;   
+}
+
+article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+iframe{ 
+    background-color: #014034;
+    padding: 41px 137px 21px 137px;
+}
+
+h2{
+    border-radius: 13px 13px 0px 0px;
+    color: white;
+    background-color: #038C73;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    text-indent: 30px;
+    text-align: start;
+    padding: 1px 0px 2px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+p#h1{
+    background-color: #5de0c881;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 14px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+ li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    text-indent: 5px;
+    text-align: start;
+    background-color: #5de0c881;
+    padding: 14px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+ }
+
+ li::before{
+    content: '☛';
+ }
+ 
+ li > a{
+    color: black;
+ }
+ 
+ li#esq{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    background-color: #5de0c881;
+    text-indent: 5px;
+    text-align: right;
+    padding: 1px;
+ }
+
+ li#dert{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    background-color: #5de0c881;
+    text-indent: 5px;
+    text-align: start;
+    padding: 1px;
+ }
+
+ p#fim{
+    background-color: #5de0c881;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 14px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+ }
+ p#fim2{
+    background-color: #5de0c881;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 14px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+ }
+
+ p#fim3{
+    background-color: #5de0c881;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 14px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+ }
+
+ b{
+    color: #014034;
+ }
+
+ footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    text-align: center;
+    background-color: #014034;
+    margin: 10px -8px;
+ }
+
+ footer > b{
+    color: white;
+ }
