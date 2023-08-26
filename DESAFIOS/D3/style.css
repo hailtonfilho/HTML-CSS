@@ -32,8 +32,7 @@ nav#tamanho{
     display: block;
     text-align: justify;
     padding: 0px 0px 10px 0px;
-    height: 30px;
-    
+    height: 30px; 
 }
 
 a#home{
@@ -61,20 +60,28 @@ a#curiosidade{
     color: white;
     font-weight: bold;
     margin-right: 30px;
+    min-width: 328px;
+    max-width: 800px;
 }
 a#curiosidade:hover{
     background-color: white;
     color: #038C73;
+    min-width: 328px;
+    max-width: 800px;
 }
 a#faleconosco{
     text-decoration: none;
     color: white;
     font-weight: bold;
     margin-right: 30px;
+    min-width: 328px;
+    max-width: 800px;
 }
 a#faleconosco:hover{
     background-color: white;
     color: #038C73;
+    min-width: 328px;
+    max-width: 800px;
 }
 
 main{
@@ -84,6 +91,8 @@ main{
     margin: 15px 200px 23px 163px;
     padding: 31px;
     border-radius: 20px;
+    min-width: 328px;
+    max-width: 800px;
 }
 
 h1#main{
@@ -92,6 +101,8 @@ h1#main{
     color: #014034;
     font-weight: bold;
     margin-right: 30px;
+    min-width: 328px;
+    max-width: 800px;
 }
 
 article > h1{
@@ -100,7 +111,9 @@ article > h1{
     color: #014034;
     padding: 1px 21px 10px 8px;
     margin: 10px;
-    height: 19px;   
+    height: 19px; 
+    min-width: 328px;
+    max-width: 800px;  
 }
 
 article > p{
@@ -108,11 +121,15 @@ article > p{
     font-size: 1.0em;
     text-indent: 30px;
     text-align: justify;
+    min-width: 328px;
+    max-width: 800px;
 }
 
 iframe{ 
     background-color: #014034;
-    padding: 41px 137px 21px 137px;
+    padding: 41px 126px 21px 126px;
+    min-width: 328px;
+    max-width: 1250px;
 }
 
 h2{
@@ -125,6 +142,8 @@ h2{
     text-align: start;
     padding: 1px 0px 2px 0px;
     margin: 0px 0px 0px 0px;
+    min-width: 328px;
+    max-width: 800px;
 }
 
 p#h1{
@@ -135,6 +154,8 @@ p#h1{
     text-align: justify;
     padding: 14px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    min-width: 328px;
+    max-width: 800px;
 }
  li{
     font-family: Arial, Helvetica, sans-serif;
@@ -144,14 +165,20 @@ p#h1{
     background-color: #5de0c881;
     padding: 14px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    min-width: 328px;
+    max-width: 800px;
  }
 
  li::before{
     content: '☛';
+    min-width: 328px;
+    max-width: 800px;
  }
  
  li > a{
     color: black;
+    min-width: 328px;
+    max-width: 800px;
  }
  
  li#esq{
@@ -162,6 +189,8 @@ p#h1{
     text-indent: 5px;
     text-align: right;
     padding: 1px;
+    min-width: 328px;
+    max-width: 800px;
  }
 
  li#dert{
@@ -172,6 +201,8 @@ p#h1{
     text-indent: 5px;
     text-align: start;
     padding: 1px;
+    min-width: 328px;
+    max-width: 800px;
  }
 
  p#fim{
@@ -182,6 +213,8 @@ p#h1{
     text-align: justify;
     padding: 14px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    min-width: 328px;
+    max-width: 800px;
  }
  p#fim2{
     background-color: #5de0c881;
@@ -191,6 +224,8 @@ p#h1{
     text-align: justify;
     padding: 14px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    min-width: 328px;
+    max-width: 800px;
  }
 
  p#fim3{
@@ -201,10 +236,14 @@ p#h1{
     text-align: justify;
     padding: 14px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    min-width: 328px;
+    max-width: 800px;
  }
 
  b{
     color: #014034;
+    min-width: 328px;
+    max-width: 800px;
  }
 
  footer{
@@ -217,4 +256,6 @@ p#h1{
 
  footer > b{
     color: white;
+    min-width: 328px;
+    max-width: 800px;
  }
